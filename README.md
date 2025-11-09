@@ -1,12 +1,97 @@
-# React + Vite
+# 📌 Refocus – Productivity & Task Management App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Refocus is a modern **productivity tracker app** that combines Pomodoro technique, task management, and notes.  
+It helps students, developers, and professionals to **stay focused, manage tasks, and track progress effectively.**  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+- ✅ **Pomodoro Timer** – Time-focused sessions with tracking  
+- ✅ **Task Management** – Add, delete & track todos  
+- ✅ **Notes Section** – Save important notes for quick access  
+- ✅ **Dashboard** – Visualize your productivity stats  
+- ✅ **Simple UI/UX** – Clean & distraction-free design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack  
+
+- **Frontend**: React, TailwindCSS, Axios, Framer Motion, Recharts  
+- **Backend**: Node.js, Express.js, MongoDB (Mongoose)  
+- **Database**: MongoDB Compass / Atlas  
+
+---
+
+## 📂 Project Structure  
+
+refocus/
+│── backend/ # Express.js + MongoDB APIs
+│ ├── models/ # Mongoose Schemas
+│ ├── routes/ # API Routes
+│ ├── server.js # Entry point
+│
+│── frontend/ # React App
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── App.js
+│ │ ├── index.js
+│
+│── README.md
+│── package.json
+
+
+---
+
+## ⚡ Installation  
+
+### 1️⃣ Clone Repository  
+```bash
+git clone https://github.com/<your-username>/refocus.git
+cd refocus
+
+
+2️⃣ Setup Backend
+cd backend
+npm install
+npm start
+👉 Backend will start on http://localhost:5000
+
+3️⃣ Setup Frontend
+cd ../frontend
+npm install
+npm run dev
+👉 Frontend will start on http://localhost:5173 (Vite default)
+
+📊 API Endpoints
+
+GET /totaltask → Returns total number of tasks
+
+POST /todos → Add a new task
+
+GET /todos → Get all tasks
+
+DELETE /todos/:id → Delete a task
+
+POST /pomodoro → Save pomodoro session
+
+🎯 Usage
+
+Run backend and frontend in separate terminals.
+
+Open browser → http://localhost:5173
+
+Start adding tasks, notes, and pomodoro sessions.
+
+Track your focus time and total tasks from dashboard.
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+✨ Made with ❤️ and focus to help people stay productive.
