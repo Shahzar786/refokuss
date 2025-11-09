@@ -10,6 +10,11 @@ const quotes = [
   "🌟 Every small step counts.",
   "🔥 Keep pushing, greatness awaits.",
   "⚡ Take a deep breath and recharge.",
+  "🌿 Pause. Breathe. Find your calm." , 
+  "⏳ Small breaks, big focus.",
+  "🌸 Slow down to move ahead.",
+  "⚡ Energy flows where focus goes."
+
 ];
 const stretches = [
   "Neck Stretch - 30s",

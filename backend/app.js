@@ -17,7 +17,7 @@ const PORT = 5000;
 
 // ✅ MongoDB connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/StopwatchApp", {
+  .connect("mongodb+srv://mdshahzarali:sarim0613@cluster0.o0rmbag.mongodb.net", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
